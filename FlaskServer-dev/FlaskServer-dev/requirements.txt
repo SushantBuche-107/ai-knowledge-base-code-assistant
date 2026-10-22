@@ -1,0 +1,9 @@
+Flask
+Werkzeug
+sentence-transformers
+numpy
+faiss-cpu
+openai
+flask-cors
+requests
+python-dotenv

@@ -1,0 +1,107 @@
+/* KnowledgeBase Custom Styles */
+
+.kb-section {
+    background: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.06);
+    border: 1px solid #e5e7eb;
+    padding: 2rem;
+}
+
+.kb-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: #2563eb;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.kb-label {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.25rem;
+}
+
+.kb-input,
+.kb-textarea {
+    border: 1px solid #d1d5db;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    width: 100%;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+.kb-input:focus,
+.kb-textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px #bfdbfe;
+    outline: none;
+}
+
+.kb-btn {
+    background: #2563eb;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px 0 rgba(37, 99, 235, 0.08);
+    transition: background 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+.kb-btn:hover {
+    background: #1d4ed8;
+}
+
+.kb-result-card {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 1rem;
+    padding: 1.25rem;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.2s;
+}
+
+.kb-result-card:hover {
+    box-shadow: 0 4px 16px 0 rgba(37, 99, 235, 0.10);
+}
+
+.kb-result-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1e40af;
+    margin-bottom: 0.25rem;
+}
+
+.kb-result-content {
+    color: #374151;
+    font-size: 0.97rem;
+    margin-bottom: 0.5rem;
+}
+
+.kb-download {
+    display: inline-block;
+    background: #111827;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background 0.2s;
+}
+
+.kb-download:hover {
+    background: #000;
+}
+
+.kb-score {
+    font-size: 0.8rem;
+    color: #6b7280;
+    margin-top: 0.25rem;
+}
